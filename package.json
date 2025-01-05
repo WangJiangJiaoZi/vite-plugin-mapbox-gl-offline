@@ -1,0 +1,43 @@
+{
+  "name": "vite-plugin-mapbox-gl-offline",
+  "version": "1.0.0",
+  "description": "Vite plugin to make mapbox-gl run offline",
+  "license": "MIT",
+  "author": "WangJian",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "mapbox-gl",
+    "offline",
+    "token"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WangJiangJiaoZi/vite-plugin-mapbox-gl-offline"
+  }
+}
