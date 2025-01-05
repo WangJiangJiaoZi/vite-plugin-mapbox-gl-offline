@@ -1,3 +1,20 @@
+/**
+ * DISCLAIMER
+ * 
+ * This code is provided for educational and demonstration purposes only.
+ * It is intended to facilitate learning and understanding of Vite plugin development
+ * and should not be used in production environments.
+ * 
+ * Users of this code must comply with Mapbox's terms of service and licensing agreements.
+ * Please ensure you have the appropriate Mapbox license and access token for your use case.
+ * 
+ * The author(s) of this code do not encourage or support any unauthorized use of Mapbox services.
+ * Use of Mapbox services without proper authentication may violate their terms of service
+ * and could result in legal consequences.
+ * 
+ * For proper usage of Mapbox services, please visit:
+ * https://www.mapbox.com/legal/tos
+ */
 import type { Plugin } from 'vite'
 
 const plugin = (): Plugin => {
